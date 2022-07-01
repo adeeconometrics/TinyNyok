@@ -1,0 +1,3 @@
+- [ ] documentation
+- [ ] conversion of DOxygenated doc to Sphynx
+- [ ] hosting documentation `@typedcode.net`
