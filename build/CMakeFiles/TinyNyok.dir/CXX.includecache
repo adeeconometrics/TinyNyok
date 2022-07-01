@@ -1,0 +1,36 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/mnt/c/Users/amianadave/Documents/TinyNyok/include/forward_mode.h
+vector
+-
+
+/mnt/c/Users/amianadave/Documents/TinyNyok/include/reverse_mode.h
+map
+-
+
+/mnt/c/Users/amianadave/Documents/TinyNyok/src/forward_mode.cpp
+../include/forward_mode.h
+/mnt/c/Users/amianadave/Documents/TinyNyok/include/forward_mode.h
+cmath
+-
+functional
+-
+vector
+-
+
+/mnt/c/Users/amianadave/Documents/TinyNyok/src/reverse_mode.cpp
+../include/reverse_mode.h
+/mnt/c/Users/amianadave/Documents/TinyNyok/include/reverse_mode.h
+cmath
+-
+functional
+-
+map
+-
+

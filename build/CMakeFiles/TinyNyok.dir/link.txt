@@ -1,0 +1,2 @@
+/usr/bin/ar qc libTinyNyok.a  CMakeFiles/TinyNyok.dir/src/forward_mode.cpp.o CMakeFiles/TinyNyok.dir/src/reverse_mode.cpp.o
+/usr/bin/ranlib libTinyNyok.a

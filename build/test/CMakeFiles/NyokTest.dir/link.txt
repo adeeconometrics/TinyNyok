@@ -1,0 +1,1 @@
+/usr/bin/c++  -Wall -Wextra -Werror -pedantic -std=c++17   CMakeFiles/NyokTest.dir/__/src/forward_mode.cpp.o CMakeFiles/NyokTest.dir/__/src/reverse_mode.cpp.o  -o NyokTest  ../lib/libgtest_main.a ../libTinyNyok.a ../lib/libgtest.a -lpthread 

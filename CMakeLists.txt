@@ -13,10 +13,10 @@ enable_testing()
 add_subdirectory(googletest)
 
 file(GLOB_RECURSE SRC_FILES src/*.cpp)
-file(GLOB_RECURSE INC_FILES include/*.cpp)
+file(GLOB_RECURSE INC_FILES include/*.h)
 
 set(Headers ${INC_FILES})
-set(Source ${SRC_FILES})
+set(Sources ${SRC_FILES})
 
 add_library(${This} STATIC ${Sources} ${Headers})
 
