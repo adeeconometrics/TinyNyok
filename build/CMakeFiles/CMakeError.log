@@ -1,21 +1,23 @@
 Performing C SOURCE FILE Test CMAKE_HAVE_LIBC_PTHREAD failed with the following output:
 Change Dir: /mnt/c/Users/amianadave/Documents/TinyNyok/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_af68b/fast && /usr/bin/make -f CMakeFiles/cmTC_af68b.dir/build.make CMakeFiles/cmTC_af68b.dir/build
+Run Build Command(s):/usr/bin/make cmTC_d03c8/fast && make: Warning: File 'Makefile' has modification time 0.86 s in the future
+/usr/bin/make -f CMakeFiles/cmTC_d03c8.dir/build.make CMakeFiles/cmTC_d03c8.dir/build
 make[1]: Entering directory '/mnt/c/Users/amianadave/Documents/TinyNyok/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_af68b.dir/src.c.o
-/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD -fPIE   -o CMakeFiles/cmTC_af68b.dir/src.c.o   -c /mnt/c/Users/amianadave/Documents/TinyNyok/build/CMakeFiles/CMakeTmp/src.c
-Linking C executable cmTC_af68b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_af68b.dir/link.txt --verbose=1
-/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_af68b.dir/src.c.o  -o cmTC_af68b 
-/usr/bin/ld: CMakeFiles/cmTC_af68b.dir/src.c.o: in function `main':
+make[1]: Warning: File 'CMakeFiles/cmTC_d03c8.dir/flags.make' has modification time 0.81 s in the future
+Building C object CMakeFiles/cmTC_d03c8.dir/src.c.o
+/usr/bin/cc   -DCMAKE_HAVE_LIBC_PTHREAD -fPIE   -o CMakeFiles/cmTC_d03c8.dir/src.c.o   -c /mnt/c/Users/amianadave/Documents/TinyNyok/build/CMakeFiles/CMakeTmp/src.c
+Linking C executable cmTC_d03c8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d03c8.dir/link.txt --verbose=1
+/usr/bin/cc  -DCMAKE_HAVE_LIBC_PTHREAD    CMakeFiles/cmTC_d03c8.dir/src.c.o  -o cmTC_d03c8 
+/usr/bin/ld: CMakeFiles/cmTC_d03c8.dir/src.c.o: in function `main':
 src.c:(.text+0x46): undefined reference to `pthread_create'
 /usr/bin/ld: src.c:(.text+0x52): undefined reference to `pthread_detach'
 /usr/bin/ld: src.c:(.text+0x63): undefined reference to `pthread_join'
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_af68b.dir/build.make:87: cmTC_af68b] Error 1
+make[1]: *** [CMakeFiles/cmTC_d03c8.dir/build.make:87: cmTC_d03c8] Error 1
 make[1]: Leaving directory '/mnt/c/Users/amianadave/Documents/TinyNyok/build/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_af68b/fast] Error 2
+make: *** [Makefile:121: cmTC_d03c8/fast] Error 2
 
 
 Source file was:
@@ -41,18 +43,20 @@ int main(void)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /mnt/c/Users/amianadave/Documents/TinyNyok/build/CMakeFiles/CMakeTmp
 
-Run Build Command(s):/usr/bin/make cmTC_0501b/fast && /usr/bin/make -f CMakeFiles/cmTC_0501b.dir/build.make CMakeFiles/cmTC_0501b.dir/build
+Run Build Command(s):/usr/bin/make cmTC_2e3b4/fast && make: Warning: File 'Makefile' has modification time 0.86 s in the future
+/usr/bin/make -f CMakeFiles/cmTC_2e3b4.dir/build.make CMakeFiles/cmTC_2e3b4.dir/build
 make[1]: Entering directory '/mnt/c/Users/amianadave/Documents/TinyNyok/build/CMakeFiles/CMakeTmp'
-Building C object CMakeFiles/cmTC_0501b.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -fPIE   -o CMakeFiles/cmTC_0501b.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
-Linking C executable cmTC_0501b
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0501b.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_0501b.dir/CheckFunctionExists.c.o  -o cmTC_0501b  -lpthreads 
+make[1]: Warning: File 'CMakeFiles/cmTC_2e3b4.dir/flags.make' has modification time 0.81 s in the future
+Building C object CMakeFiles/cmTC_2e3b4.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create -fPIE   -o CMakeFiles/cmTC_2e3b4.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.16/Modules/CheckFunctionExists.c
+Linking C executable cmTC_2e3b4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2e3b4.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    CMakeFiles/cmTC_2e3b4.dir/CheckFunctionExists.c.o  -o cmTC_2e3b4  -lpthreads 
 /usr/bin/ld: cannot find -lpthreads
 collect2: error: ld returned 1 exit status
-make[1]: *** [CMakeFiles/cmTC_0501b.dir/build.make:87: cmTC_0501b] Error 1
+make[1]: *** [CMakeFiles/cmTC_2e3b4.dir/build.make:87: cmTC_2e3b4] Error 1
 make[1]: Leaving directory '/mnt/c/Users/amianadave/Documents/TinyNyok/build/CMakeFiles/CMakeTmp'
-make: *** [Makefile:121: cmTC_0501b/fast] Error 2
+make: *** [Makefile:121: cmTC_2e3b4/fast] Error 2
 
 
 

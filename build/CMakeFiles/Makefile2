@@ -181,8 +181,8 @@ CMakeFiles/TinyNyok.dir/clean:
 # Target rules for target googletest/googlemock/CMakeFiles/gmock_main.dir
 
 # All Build rule for target.
-googletest/googlemock/CMakeFiles/gmock_main.dir/all: googletest/googlemock/CMakeFiles/gmock.dir/all
 googletest/googlemock/CMakeFiles/gmock_main.dir/all: googletest/googletest/CMakeFiles/gtest.dir/all
+googletest/googlemock/CMakeFiles/gmock_main.dir/all: googletest/googlemock/CMakeFiles/gmock.dir/all
 	$(MAKE) -f googletest/googlemock/CMakeFiles/gmock_main.dir/build.make googletest/googlemock/CMakeFiles/gmock_main.dir/depend
 	$(MAKE) -f googletest/googlemock/CMakeFiles/gmock_main.dir/build.make googletest/googlemock/CMakeFiles/gmock_main.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/amianadave/Documents/TinyNyok/build/CMakeFiles --progress-num=9,10 "Built target gmock_main"
@@ -290,9 +290,9 @@ googletest/googletest/CMakeFiles/gtest.dir/clean:
 # Target rules for target test/CMakeFiles/NyokTest.dir
 
 # All Build rule for target.
+test/CMakeFiles/NyokTest.dir/all: googletest/googletest/CMakeFiles/gtest.dir/all
 test/CMakeFiles/NyokTest.dir/all: CMakeFiles/TinyNyok.dir/all
 test/CMakeFiles/NyokTest.dir/all: googletest/googletest/CMakeFiles/gtest_main.dir/all
-test/CMakeFiles/NyokTest.dir/all: googletest/googletest/CMakeFiles/gtest.dir/all
 	$(MAKE) -f test/CMakeFiles/NyokTest.dir/build.make test/CMakeFiles/NyokTest.dir/depend
 	$(MAKE) -f test/CMakeFiles/NyokTest.dir/build.make test/CMakeFiles/NyokTest.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/mnt/c/Users/amianadave/Documents/TinyNyok/build/CMakeFiles --progress-num=1,2,3 "Built target NyokTest"
